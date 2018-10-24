@@ -34,7 +34,7 @@
       <distributionManagement>
    <repository>
       <id>nexus-releases</id>
-      <url>http://ec2-34-222-0-181.us-west-2.compute.amazonaws.com:8081/nexus/content/repositories/jenkinsrelease/</url>
+      <url>http://ec2-34-222-0-181.us-west-2.compute.amazonaws.com:8081/nexus/content/repositories/central/</url>
    </repository>
 </distributionManagement>
 </project>
