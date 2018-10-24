@@ -30,6 +30,16 @@
     <artifactId>scala-compiler</artifactId>
     <version>2.13.0-M5</version>
 </dependency>
+    <plugins>
+        <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.22.1</version>
+        <configuration>
+          <groups>functest,perftest</groups>
+        </configuration>
+      </plugin>
+</plugins>
 </dependencies>
   <repositories>
     <repository>
@@ -47,16 +57,4 @@
     <url>http://ec2-34-222-0-181.us-west-2.compute.amazonaws.com:8081/nexus/content/repositories/maven-releases</url>
   </repository>
 </distributionManagement>
-<plugins>
-    [...]
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>2.22.1</version>
-        <configuration>
-          <groups>functest,perftest</groups>
-        </configuration>
-      </plugin>
-    [...]
-</plugins>
 </project>
