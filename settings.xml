@@ -49,12 +49,12 @@ under the License.
 
  <servers>
     <server>
-      <id>nexus-snapshots</id>
+      <id>ec2instance</id>
       <username>admin</username>
       <password>admin123</password>
     </server>
     <server>
-      <id>nexus-releases</id>
+      <id>ec2instance</id>
       <username>admin</username>
       <password>admin123</password>
     </server>
