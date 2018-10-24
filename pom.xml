@@ -33,12 +33,12 @@
 </dependencies>
 <distributionManagement>
 <snapshotRepository>
-    <id>maven-sanpshots</id>
-    <url>http://ec2-34-222-0-181.us-west-2.compute.amazonaws.com:8081/nexus/content/repositories/maven-sanpshots</url>
-  </snapshotRepository>
-  <repository>
     <id>maven-releases</id>
     <url>http://ec2-34-222-0-181.us-west-2.compute.amazonaws.com:8081/nexus/content/repositories/maven-releases</url>
+  </snapshotRepository>
+  <repository>
+    <id>maven-sanpshots</id>
+    <url>http://ec2-34-222-0-181.us-west-2.compute.amazonaws.com:8081/nexus/content/repositories/maven-sanpshots</url>
   </repository>
 </distributionManagement>
 </project>

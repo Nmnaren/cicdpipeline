@@ -49,12 +49,12 @@ under the License.
 
  <servers>
     <server>
-      <id>nexus-snapshots</id>
+      <id>nexus-releases</id>
       <username>admin</username>
       <password>admin123</password>
     </server>
     <server>
-      <id>nexus-releases</id>
+      <id>nexus-sanpshots</id>
       <username>admin</username>
       <password>admin123</password>
     </server>
@@ -62,9 +62,9 @@ under the License.
 
   <mirrors>
     <mirror>
-      <id>maven-sanpshots</id>
-      <name>maven-sanpshots</name>
-      <url>http://ec2-34-222-0-181.us-west-2.compute.amazonaws.com:8081/nexus/content/repositories/maven-sanpshots</url>
+      <id>maven-releases</id>
+      <name>maven-releases</name>
+      <url>http://ec2-34-222-0-181.us-west-2.compute.amazonaws.com:8081/nexus/content/repositories/maven-releases</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
   </mirrors>
