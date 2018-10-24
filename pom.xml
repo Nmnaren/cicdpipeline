@@ -31,19 +31,6 @@
     <version>2.13.0-M5</version>
 </dependency>
 </dependencies>
-  <!-- common build configurations for all collection plugins -->
-    <build>
-      <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>2.22.1</version>
-        <configuration>
-          <groups>functest,perftest</groups>
-        </configuration>
-      </plugin>
-</plugins>
-  
   <repositories>
     <repository>
       <id>maven-group</id>
@@ -60,5 +47,19 @@
     <url>http://ec2-34-222-0-181.us-west-2.compute.amazonaws.com:8081/nexus/content/repositories/maven-releases</url>
   </repository>
 </distributionManagement>
+  
+  <!-- common build configurations for all collection plugins -->
+    <build>
+      <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.22.1</version>
+        <configuration>
+          <groups>functest,perftest</groups>
+        </configuration>
+      </plugin>
+</plugins>
+  
   </build>
 </project>
