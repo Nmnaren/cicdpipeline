@@ -46,13 +46,13 @@
   <version>2.22.1</version>
 </dependency>
 </dependencies>
+  <distributionManagement>
   <repositories>
     <repository>
       <id>maven-group</id>
       <url>http://ec2-34-222-0-181.us-west-2.compute.amazonaws.com:8081/repository/maven-group/</url>
     </repository>
   </repositories>
-<distributionManagement>
  <repository>
     <id>jenkinstest</id>
     <url>http://ec2-34-222-0-181.us-west-2.compute.amazonaws.com:8081/nexus/content/repositories/jenkinstest</url>
