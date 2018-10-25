@@ -55,13 +55,13 @@
   <repositories>
     <repository>
       <id>maven-group</id>
-      <url>http://ec2-34-222-0-181.us-west-2.compute.amazonaws.com:8081/repository/maven-group/</url>
+      <url>http://ec2-54-244-63-50.us-west-2.compute.amazonaws.com:8081/nexus/content/groups/maven-group/</url>
     </repository>
   </repositories>
 <distributionManagement>
 <repository>
     <id>maven-releases</id>
-    <url>http://ec2-34-222-0-181.us-west-2.compute.amazonaws.com:8081/nexus/content/repositories/maven-releases</url>
+    <url>http://ec2-54-244-63-50.us-west-2.compute.amazonaws.com:8081/nexus/content/repositories/maven-releases</url>
   </repository>
   </distributionManagement>
 </project>
